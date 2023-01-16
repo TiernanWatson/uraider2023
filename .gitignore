@@ -78,3 +78,12 @@ crashlytics-build.properties
 *.png
 *.jpg
 *.bmp
+
+/Assets/Models/
+/Assets/Materials/
+/Assets/Textures/
+/Assets/SFX/
+/Assets/Samples/
+/Assets/Scenes/
+/Assets/Standard Assets/
+/Assets/Fonts/
