@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5aee315e3cd85a4f9b1fbe84236c5b8, type: 3}
+  m_Name: PlayerSettingsPBNew
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnManagerScriptableObject
+  damageHeight: 5
+  deathHeight: 8
+  runSpeed: 3.5
+  walkSpeed: 1.335
+  maxAngularVel: 600
+  groundingDistance: 0.4
+  gravity: 18
+  terminalSpeed: 40
+  speedInterp: 10
+  keyboardInterp: 5
+  gamepadInterp: 20
+  lerpToRate: 20
+  locomotionTurnRate: 600
+  crawlTurnRate: 100
+  swimTurnRate: 240
+  pullDoorRight: 0.85
+  pullDoorForward: -0.4
+  pushDoorRight: 0.6
+  pushDoorForward: -0.4
+  crowbarRight: 0.65
+  crowbarForward: -0.4
+  useKeyRight: 0.85
+  useKeyForward: -0.4
+  tryDoorRight: 0.85
+  tryDoorForward: -0.4
+  jumpHeight: 1
+  jumpDistance: 3.2
+  standJumpDistance: 2.2
+  ledgeDownOffset: 2.09
+  ledgeBackOffset: 0.11
+  ledgeEndPadding: 0.34
+  ledgeCornerPadding: 0.34
+  ledgeCornerInPadding: 0.34
+  ledgeJumpUpGrabOffset: 1.975
+  ledgeJumpUpMinSpeed: 7.5
+  ledgeJumpUpMaxDistance: 3
+  ledgeJumpUpMaxDepth: 0.25
+  grabLedgeUpOffset: -2.09
+  grabDownOffset: 1.82
+  grabBackOffset: 0.11
+  grabDropUpOffset: -1.338
+  grabSDownOffset: 2.09
+  grabSBackOffset: 0.11
+  grabPoleSwingUpOffset: -1.842
+  grabPoleSwingForwardOffset: 0
+  maxLedgeAngle: 30
+  jumpGrabError: 2.5
+  monkeyOffset: 2.1
+  maxSwingJumpSpeed: 8
+  minSwingJumpUpSpeed: 1
+  grappleMaterial: {fileID: 2100000, guid: 0cfebb523f574ac408c5debeb9c35950, type: 2}
+  ladderBackOffset: 0.38
+  ladderUpOffset: 0.05
+  drainpipeBackOffset: 0.23
+  drainpipeDownOffset: 0
+  drainpipeStartBackOffset: 0.23
+  drainpipeStartRightOffset: 0
+  drainpipeStartUpOffset: 0.625
+  poleGrabDownOffset: 2.04
+  poleHandDownOffset: 2.09
+  poleGrabMaxAngle: 30
+  poleGrabBodyLength: 2.75
+  wallclimbUpOffset: 0.08
+  wallclimbBackOffset: 0.5
+  freeclimbUpOffset: 1.82
+  freeclimbForwardOffset: -1.45
+  jumpEnterOffset: 0.7
+  treadYOffset: 0.35
+  diveEnterDrag: 80
+  minWadeDepth: 0.75
+  maxWadeDepth: 1.5
+  pushStartOffset: 0.25
+  ledgeLayers:
+    serializedVersion: 2
+    m_Bits: 513
+  groundLayers:
+    serializedVersion: 2
+    m_Bits: 2561

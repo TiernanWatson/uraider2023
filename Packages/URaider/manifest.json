@@ -1,0 +1,23 @@
+{
+  "name": "com.tiernanwatson.uraider",
+  "version": "0.0.1",
+  "displayName": "URaider",
+  "description": "Action-adventure game framework",
+  "unity": "2021.1",
+  "unityRelease": "20f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "dependencies": {
+ },
+ "keywords": [
+    "uraider",
+    "tomb raider",
+    "lara croft"
+  ],
+  "author": {
+    "name": "Tiernan Watson",
+    "email": "tiernanwatson@gmail.com",
+    "url": "https://tiernanwatson.com"
+  }
+}
